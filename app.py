@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     return '''Welcome to Cloud Shaikh Jawwad Adil Mohammad Iftekhar.
-            This is Python - Flask APP, We have successfully created a CICD PIPELINE.....
+            This is Python - Flask APP, We have successfully created a CICD PIPELINE'''
 
 @app.route('/health')
 def health():
